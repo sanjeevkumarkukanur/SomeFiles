@@ -1,0 +1,38 @@
+/** @format */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.login__from {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+}
+.login__from > h1 {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.login__from > input {
+  min-width: 380px;
+  padding: 5px;
+  margin: 20px 0;
+  border: none;
+  font-size: 15px;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+.submit__btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgb(8, 8, 85);
+  color: #fff;
+}
